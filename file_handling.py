@@ -1,0 +1,16 @@
+# s=open('demo.txt',mode='a')
+# #print(s.read())
+# #s.write("bye bye")
+# s.write("bye bye write")
+# s.close()
+
+# s=open('demo.txt',mode='r+')
+# print(s.read())
+# s.write("r+ mode")
+# s.close()
+
+s=open('demo.txt',mode='w+')
+s.write("w+ mode")
+s.seek(0)
+print(s.read())
+s.close()
