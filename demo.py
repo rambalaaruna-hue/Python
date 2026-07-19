@@ -1,0 +1,3 @@
+import functions
+functions.add(3,3)
+functions.sub(10,5)
