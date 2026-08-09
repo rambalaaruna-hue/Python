@@ -68,7 +68,13 @@
 #print([{} for _ in range(10)])
 
 #Extend a list without append
-l1=[1,2,3]
-l2=[3,4,5]
-l1[:0]=l2
-print(l1)
+# l1=[1,2,3]
+# l2=[3,4,5]
+# l1[:0]=l2
+# print(l1)
+
+
+#Riverse a number
+num=12345
+c=str(num)
+print(c[::-1])
